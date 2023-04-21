@@ -1,10 +1,10 @@
 import axios from 'axios';
 import logo from './logo.svg';
 import './App.css';
-
 import React, { useState } from 'react';
 
 
+}
 function App() {
     const [pokemonName, setPokemonName] = useState('');
     const [pokemonData, setPokemonData] = useState(null);
@@ -46,8 +46,8 @@ function App() {
                             <li key={type.slot}>{type.type.name}</li>
                         ))}
                     </ul>
-                  
-               
+
+
                 </div>
             )}
         </div>
