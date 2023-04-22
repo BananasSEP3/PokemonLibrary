@@ -17,6 +17,7 @@ root.render(
 );
 
 //created by me
+/*
 function getPokemon(pokemonName) {
     return axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
 }
@@ -50,4 +51,4 @@ const Pokemon = async () => {
             )}
         </div>
     );
-}
+}*/
