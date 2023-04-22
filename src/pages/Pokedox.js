@@ -20,7 +20,7 @@ function Pokedox() {
             <button onClick={searchPokemon}>Search</button>
         </div>
     </div>
-
+    
     function getRandomPokemon() {
         // Get a random Pokemon ID between 1 and 898
         let randomId = Math.floor(Math.random() * 898) + 1;
@@ -44,29 +44,6 @@ function Pokedox() {
             alert('Please enter a Pokemon name');
             return;
         }
-        fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Pokemon not found');
-                }
-                return response.json();
-            })
-            .then(data => {
-                // Update the card with the data for the searched Pokemon
-                document.getElementById('pokemon-img').src = data.sprites.front_default;
-                document.getElementById('pokemon-name').innerHTML = data.name.charAt(0).toUpperCase() + data.name.slice(1);
-                document.getElementById('pokemon-type').innerHTML = `Type: ${data.types.map(type => type.type.name).join('/')}`;
-                document.getElementById('pokemon-height').innerHTML = `Height: ${data.height / 10}m`;
-                document.getElementById('pokemon-weight').innerHTML = `Weight: ${data.weight / 10}kg`;
-            })
-            .catch(error => {
-                console.log(error);
-                alert('Pokemon not found');
-            });
-    }
-
-    function searchSpecificPokemon(pokemonName) {
-
         fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`)
             .then(response => {
                 if (!response.ok) {
