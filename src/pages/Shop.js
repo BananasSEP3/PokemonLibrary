@@ -1,12 +1,12 @@
-import React from 'react'
-import guy from '../images/guy.jpg'
-import keychain from '../images/keychain.jpg'
-import backpack from '../images/Backpack.jpg'
-import './shop.css'
+import React from 'react';
+import guy from '../images/guy.jpg';
+import keychain from '../images/keychain.jpg';
+import backpack from '../images/Backpack.jpg';
+import './shop.css';
 
 function Shop() {
-    return <div>
-        <div>
+    return (
+        <div className="shop-container">
             <h2>Welcome to the Pokemon World Shop!</h2>
             <p>Here, you can find all sorts of Pokemon merchandise to show off your love for the franchise. From
                 plushies to keychains to clothing and accessories, we have something for everyone.</p>
@@ -32,7 +32,7 @@ function Shop() {
                 </li>
             </ul>
         </div>
-    </div>
+    );
 }
 
-export default Shop
+export default Shop;

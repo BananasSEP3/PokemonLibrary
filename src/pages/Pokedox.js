@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles.css'
 
 function Pokedox() {
-    return <div>
+    return <div className="container">
         <div className="card">
             <h3>Find your Pokemon!</h3>
             <h2>Search for the Pokemon to find the most important information</h2>
