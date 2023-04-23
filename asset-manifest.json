@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/PokemonLibrary/static/css/main.56e598f8.css",
+    "main.js": "/PokemonLibrary/static/js/main.e3964120.js",
+    "static/media/Backpack.jpg": "/PokemonLibrary/static/media/Backpack.4b6fbad1ed40863b04c7.jpg",
+    "static/media/pikachu.jpg": "/PokemonLibrary/static/media/pikachu.f55ffb3d24434601457d.jpg",
+    "static/media/guy.jpg": "/PokemonLibrary/static/media/guy.653c576be932766874b6.jpg",
+    "static/media/keychain.jpg": "/PokemonLibrary/static/media/keychain.9d516268e8960f17bdd6.jpg",
+    "index.html": "/PokemonLibrary/index.html",
+    "main.56e598f8.css.map": "/PokemonLibrary/static/css/main.56e598f8.css.map",
+    "main.e3964120.js.map": "/PokemonLibrary/static/js/main.e3964120.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56e598f8.css",
+    "static/js/main.e3964120.js"
+  ]
+}
